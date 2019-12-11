@@ -23,7 +23,7 @@ struct HomeView: View {
                     .padding(.top)
                     .padding(.bottom)
             }
-            .navigationBarTitle(Text("Coffee DB"))
+            .navigationBarTitle(Text("Swift UI Coffee Project"))
         }
     }
 }

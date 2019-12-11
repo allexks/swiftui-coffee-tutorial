@@ -20,10 +20,12 @@ struct DrinkRow: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top) {
-                    ForEach (drinks) {
-                        DrinkItem(drink: $0)
+                    ForEach (drinks) { drink in
+                        NavigationLink(destination: DrinkDetail(drink: drink)) {
+                            DrinkItem(drink: drink)
                             .frame(width: 300)
                             .padding(.trailing, 30)
+                        }
                     }
                 }
             }
@@ -33,6 +35,6 @@ struct DrinkRow: View {
 
 struct DrinkRow_Previews: PreviewProvider {
     static var previews: some View {
-        DrinkRow(categoryName: "Hot Drinks", drinks: drinkData)
+        DrinkRow(categoryName: "Drinks", drinks: drinkData)
     }
 }
