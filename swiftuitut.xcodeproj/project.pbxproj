@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		1A9FA52A23A1003500A3E38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FA52923A1003500A3E38C /* AppDelegate.swift */; };
 		1A9FA52C23A1003500A3E38C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FA52B23A1003500A3E38C /* SceneDelegate.swift */; };
-		1A9FA52E23A1003500A3E38C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FA52D23A1003500A3E38C /* ContentView.swift */; };
+		1A9FA52E23A1003500A3E38C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FA52D23A1003500A3E38C /* HomeView.swift */; };
 		1A9FA53023A1003600A3E38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FA52F23A1003600A3E38C /* Assets.xcassets */; };
 		1A9FA53323A1003600A3E38C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FA53223A1003600A3E38C /* Preview Assets.xcassets */; };
 		1A9FA53623A1003600A3E38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FA53423A1003600A3E38C /* LaunchScreen.storyboard */; };
+		1A9FA53E23A100B800A3E38C /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FA53D23A100B800A3E38C /* drinks.json */; };
+		1A9FA54023A1017500A3E38C /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FA53F23A1017500A3E38C /* Drinks.swift */; };
+		1A9FA54223A101F300A3E38C /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FA54123A101F300A3E38C /* DataHelper.swift */; };
+		1A9FA54423A1032500A3E38C /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FA54323A1032500A3E38C /* DrinkItem.swift */; };
+		1A9FA54623A1075600A3E38C /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FA54523A1075600A3E38C /* DrinkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A9FA52623A1003500A3E38C /* swiftuitut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuitut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9FA52923A1003500A3E38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A9FA52B23A1003500A3E38C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A9FA52D23A1003500A3E38C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A9FA52D23A1003500A3E38C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1A9FA52F23A1003600A3E38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A9FA53223A1003600A3E38C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A9FA53523A1003600A3E38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A9FA53723A1003600A3E38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9FA53D23A100B800A3E38C /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
+		1A9FA53F23A1017500A3E38C /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		1A9FA54123A101F300A3E38C /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
+		1A9FA54323A1032500A3E38C /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
+		1A9FA54523A1075600A3E38C /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				1A9FA52923A1003500A3E38C /* AppDelegate.swift */,
 				1A9FA52B23A1003500A3E38C /* SceneDelegate.swift */,
-				1A9FA52D23A1003500A3E38C /* ContentView.swift */,
+				1A9FA52D23A1003500A3E38C /* HomeView.swift */,
+				1A9FA54323A1032500A3E38C /* DrinkItem.swift */,
+				1A9FA54523A1075600A3E38C /* DrinkRow.swift */,
 				1A9FA52F23A1003600A3E38C /* Assets.xcassets */,
 				1A9FA53423A1003600A3E38C /* LaunchScreen.storyboard */,
 				1A9FA53723A1003600A3E38C /* Info.plist */,
+				1A9FA53D23A100B800A3E38C /* drinks.json */,
 				1A9FA53123A1003600A3E38C /* Preview Content */,
+				1A9FA53F23A1017500A3E38C /* Drinks.swift */,
+				1A9FA54123A101F300A3E38C /* DataHelper.swift */,
 			);
 			path = swiftuitut;
 			sourceTree = "<group>";
@@ -135,6 +150,7 @@
 			files = (
 				1A9FA53623A1003600A3E38C /* LaunchScreen.storyboard in Resources */,
 				1A9FA53323A1003600A3E38C /* Preview Assets.xcassets in Resources */,
+				1A9FA53E23A100B800A3E38C /* drinks.json in Resources */,
 				1A9FA53023A1003600A3E38C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +164,11 @@
 			files = (
 				1A9FA52A23A1003500A3E38C /* AppDelegate.swift in Sources */,
 				1A9FA52C23A1003500A3E38C /* SceneDelegate.swift in Sources */,
-				1A9FA52E23A1003500A3E38C /* ContentView.swift in Sources */,
+				1A9FA54623A1075600A3E38C /* DrinkRow.swift in Sources */,
+				1A9FA54023A1017500A3E38C /* Drinks.swift in Sources */,
+				1A9FA52E23A1003500A3E38C /* HomeView.swift in Sources */,
+				1A9FA54223A101F300A3E38C /* DataHelper.swift in Sources */,
+				1A9FA54423A1032500A3E38C /* DrinkItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
